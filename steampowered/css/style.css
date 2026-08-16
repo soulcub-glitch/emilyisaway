@@ -1,0 +1,73 @@
+/* Default */
+body{
+	background-color:#4C5844;
+}
+
+/*
+img.content{
+	width:100%;
+	margin-top: -10px;
+}
+*/
+
+/* Desktops (desktops, 992px and up) */
+div.container {
+    display: block;
+	margin: auto;
+	width: 992px;
+	margin-top: -10px;
+	position:relative;
+}
+
+div.tag {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width:296px;
+	height:112px;
+}
+
+#capsule1 {
+	left:28px;
+	top:104px;
+}
+
+#capsule2 {
+	left:336px;
+	top:104px;
+}
+
+#capsule3 {
+	left:28px;
+	top:556px;
+}
+
+#capsule4 {
+	left:336px;
+	top:556px;
+}
+
+#maincapsule {
+	left:24px;
+	top:256px;
+
+	width:604px;
+	height:236px;
+}
+
+#steambutt {
+	left:36px;
+	top:40px;
+
+	width:232px;
+	height:40px;
+}
+
+
+
+img.content{
+	width: 992px;
+	pointer-events: none;
+}
+

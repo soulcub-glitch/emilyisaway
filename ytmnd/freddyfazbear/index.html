@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<title>YTMND - Freddy Fazbear</title>
+<link rel="shortcut icon" type="image/x-icon" href="../css/favico.ico"/> 
+<style>
+	html, body {
+		height:100%;
+		width:100%;
+		margin:0px;
+		padding:0px;
+		overflow:hidden;
+		background: black;
+	}
+
+	div.content {
+		margin:0px;
+		padding:0px;
+		height:100%;
+		width:100%;
+		background-image: url("gif.gif");
+	}
+
+	div.hidden {
+		height: 0px;
+		width: 0px;
+		background-image: url("gif2.jpeg");
+	}
+
+	div.tab {
+		position: absolute;
+		left:0px;
+		top:0px;
+		width:100px;
+		height:100px;
+	}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+</head>
+<body>
+<audio autoplay>
+	<source src="audio.wav">
+</audio>
+<audio id="hit" preload="auto">
+	<source src="hit.wav">
+</audio>
+<div class="content" id="img" style="background-position: center center; background-repeat: no-repeat;"></div>
+<div class="hidden"></div>
+<div class="tab"><a href="../index.html"><img src="../css/tab.png"></a></div>
+<script type="text/javascript">
+	window.onload = function() {
+	var id = setTimeout(frame, 19000);
+
+	function frame() {
+		document.getElementById("hit").play();
+		document.getElementById("img").style.backgroundImage = "url('./gif2.jpeg'";
+	}
+}
+</script>
+</body>

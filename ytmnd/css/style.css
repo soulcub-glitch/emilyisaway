@@ -1,0 +1,145 @@
+/* Default */
+body{
+	background-color:#;
+}
+
+/*
+img.content{
+	width:100%;
+	margin-top: -10px;
+}
+*/
+
+/* Desktops (desktops, 992px and up) */
+div.container {
+    display: block;
+	margin: auto;
+	width: 992px;
+	margin-top: -10px;
+	position:relative;
+}
+
+#header {
+	font-family: 'Play', Arial;
+	font-size:16px;
+
+    float: left;
+    position: absolute;
+    left: 36px;
+    top: 148px;
+    width:280px;
+	height:16px;
+}
+
+div.row {
+	font-family: 'Play', Arial;
+	font-size:16px;
+
+    float: left;
+    position: absolute;
+    left: 180px;
+    top: 0px;
+    width:232px;
+	height:24px;
+}
+
+div.row a {
+	font-family: 'Play', Arial;
+	font-size:16px;
+}
+
+div.rowtitle {
+	float: left;
+    position: absolute;
+    left: 8px;
+    top: 2px;
+    width:540px;
+	height:24px;
+}
+
+#row1 {
+	top:336px;
+}
+
+#row2 {
+	top:360px;
+}
+
+#row3 {
+	top:384px;
+}
+
+#row4 {
+	top:408px;
+}
+
+#row5 {
+	top:432px;
+}
+
+#row6 {
+	top:456px;
+}
+
+#row7 {
+	top:480px;
+}
+
+#row8 {
+	top:504px;
+}
+
+#row9 {
+	top:528px;
+}
+
+#row10 {
+	top:552px;
+}
+
+#row11 {
+	top:620px;
+}
+
+#row12 {
+	top:644px;
+}
+
+#row13 {
+	top:668px;
+}
+
+#row14 {
+	top:692px;
+}
+
+#row15 {
+	top:716px;
+}
+
+#row16 {
+	top:740px;
+}
+
+#row17 {
+	top:764px;
+}
+
+#row18 {
+	top:786px;
+}
+
+#row19 {
+	top:810px;
+}
+
+#row20 {
+	top:834px;
+}
+
+
+img.content{
+	width: 992px;
+	pointer-events: none;
+}
+

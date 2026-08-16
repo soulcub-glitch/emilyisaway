@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<title>YouToob - snow patrol-hands open</title>
+
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="shortcut icon" type="image/x-icon" href="css/favicon.ico"/> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+</head>
+<body>
+<div class="container">
+	<div class="video">
+		<div id="player"></div>
+	</div>
+	<script>
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '372',
+          width: '496',
+          videoId: 'mBHyMBhlxxU',
+          playerVars: { 'autoplay': 1, 'iv_load_policy': 3, 'rel': 0 },
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      	
+      	document.getElementById("button").onclick = function () {
+        	var state = player.getPlayerState();
+        	if(state == 0 || state == 2 || state == -1) {
+        		player.playVideo();
+        		document.getElementById("button").style.backgroundImage = "url('../css/pause.png')";
+        	} else if(state == 1) {
+        		player.pauseVideo();
+        		document.getElementById("button").style.backgroundImage = "url('../css/play.png')";
+        	}
+        }
+      }
+
+      function updateTime() {
+      	var sec_num = parseInt(player.getCurrentTime(), 10);
+      	var minutes = Math.floor(sec_num / 60);
+    	var seconds = sec_num - (minutes * 60);
+
+  		if (minutes > 99) {minutes = "99";}
+    	if (minutes < 10) {minutes = "0"+minutes;}
+    	if (seconds < 10) {seconds = "0"+seconds;}
+
+      	document.getElementById("time1").innerHTML = minutes+':'+seconds + "/";
+      	setTimeout(updateTime, 1000);
+      }
+
+      function onPlayerReady(event) {
+        event.target.playVideo();
+        updateTime();
+      }
+
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.ENDED) {
+          window.location.href = "../3MxcbB0SFao";
+        }
+      }
+    </script>
+
+	<div class="tag" id="header">snow patrol-hands open</div>
+	<div class="tag" id="description">hands open is a song sung by snow patrol</div>
+
+	<div class="tag" id="comment1">Awesome man, i like them so much. Yes they rule, they rock, they are the bomb. I had 2 much beer man!!!</div>
+	<div class="tag" id="comment2">My Hands Are Always Open For Snow Patrol....CD's, Merchandise, Concert Tickets or Any of The Lads During A Gig ;D</div>
+	<div class="tag" id="comment3">this... is what you call MUSIC</div>
+
+	<div class="tag" id="link1"><a href="3MxcbB0SFao.html">Spitting Games</a></div>
+	<div class="tag" id="link2"><a href="y7tBuRRqoJQ.html">Music for a Nurse</a></div>
+	<div class="tag" id="link3"><a href="NDHY1D0tKRA.html">I Will Follow You</a></div>
+	<div class="tag" id="link4"><a href="AS5-lXv_xUc.html">Colly Strings</a></div>
+	<div class="tag" id="link5"><a href="9zdNdjF-htY.html">Wake Up</a></div>
+
+	<div class="tag" id="thumb1"><a href="3MxcbB0SFao.html"><div class="thumblarge"></div></a></div>
+	<div class="tag" id="thumb2"><a href="y7tBuRRqoJQ.html"><div class="thumblarge"></div></a></div>
+	<div class="tag" id="thumb3"><a href="NDHY1D0tKRA.html"><div class="thumblarge"></div></a></div>
+	<div class="tag" id="thumb4"><a href="AS5-lXv_xUc.html"><div class="thumblarge"></div></a></div>
+	<div class="tag" id="thumb5"><a href="9zdNdjF-htY.html"><div class="thumblarge"></div></a></div>
+
+	<div class="tag" id="dthumb1"><a href="KmtzQCSh6xk.html"><div class="thumbsmall"></div></a></div>
+	<div class="tag" id="dthumb2"><a href="hMnk7lh9M3o.html"><div class="thumbsmall"></div></a></div>
+	<div class="tag" id="dthumb3"><a href="yECd_Sz_zJ8.html"><div class="thumbsmall"></div></a></div>
+	<div class="tag" id="dthumb4"><a href="D2kJZOfq7zk.html"><div class="thumbsmall"></div></a></div>
+
+	<div class="tag" id="direct1"><a href="KmtzQCSh6xk.html">Numa Numa</a></div>
+	<div class="tag" id="direct2"><a href="hMnk7lh9M3o.html">Thriller</a></div>
+	<div class="tag" id="direct3"><a href="yECd_Sz_zJ8.html">The Landlord</a></div>
+	<div class="tag" id="direct4"><a href="D2kJZOfq7zk.html">Urban Ninja</a></div>
+
+	<div class="tag" id="username">hedge-hogs-rock</div>
+	<div class="tag" id="time1">00:00/</div>
+	<div class="tag" id="time2">03:20</div>
+
+	<div class="tag" id="commentname1">Geko9</div>
+	<div class="tag" id="commentname2">pander</div>
+	<div class="tag" id="commentname3">emul0rd</div>
+
+	<div class="tag" id="ad1"><a href="../newgrounds.html">newgrounds.com</a></div>
+	<div class="tag" id="ad2"><a href="../ytmnd.html">ytmnd.com</a></div>
+	<div class="tag" id="ad3"><a href="../steampowered.html">steam.com</a></div>
+
+	<img class="content" src="css/backgroundem.png"/>
+	<div class="tag" id="button"></div>
+</div>
+</body>

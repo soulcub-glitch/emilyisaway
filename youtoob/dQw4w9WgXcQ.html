@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<title>YouToob - Rick Astley - Never Gonna Give You Up</title>
+
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="shortcut icon" type="image/x-icon" href="css/favicon.ico"/> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+</head>
+<body>
+<div class="container">
+	<div class="video">
+	<div id="player"></div>
+	</div>
+	<script>
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '372',
+          width: '496',
+          videoId: 'dQw4w9WgXcQ',
+          playerVars: { 'autoplay': 1, 'iv_load_policy': 3, 'rel': 0 },
+          events: {
+            'onReady': onPlayerReady
+          }
+        });
+
+        document.getElementById("button").onclick = function () {
+        	var state = player.getPlayerState();
+        	if(state == 0 || state == 2 || state == -1) {
+        		player.playVideo();
+        		document.getElementById("button").style.backgroundImage = "url('../css/pause.png')";
+        	} else if(state == 1) {
+        		window.open("http://www.emilyisaway.com/youtoob/yeltsakcir",'_blank');
+        		document.getElementById("button").style.backgroundImage = "url('../css/play.png')";
+        	}
+        }
+      }
+
+      function updateTime() {
+      	var sec_num = parseInt(player.getCurrentTime(), 10);
+      	var minutes = Math.floor(sec_num / 60);
+    	var seconds = sec_num - (minutes * 60);
+
+  		if (minutes > 99) {minutes = "99";}
+    	if (minutes < 10) {minutes = "0"+minutes;}
+    	if (seconds < 10) {seconds = "0"+seconds;}
+
+      	document.getElementById("time1").innerHTML = minutes+':'+seconds + "/";
+      	setTimeout(updateTime, 1000);
+      }
+
+      function onPlayerReady(event) {
+        event.target.playVideo();
+        updateTime();
+      }
+    </script>
+
+	<div class="tag" id="header">Rick Astley - Never Gonna Give You Up</div>
+	<div class="tag" id="description">Music video by Rick Astley performing Never Gonna Give You Up. (C) 1987 PWL</div>
+
+	<div class="tag" id="comment1">NOOO IVE BEEN RICK ROLLED T_T</div>
+	<div class="tag" id="comment2">luv this song til this day and im seventeen</div>
+	<div class="tag" id="comment3">this is a fact. rick astley thinks rick rool it funnier then hell! he thinks rick roll is awesome! thats cool</div>
+
+	<div class="tag" id="link1"><a href="dMH0bHeiRNg.html">Evolution of Dance</a></div>
+	<div class="tag" id="link2"><a href="TF6cnLnEARo.html">Canon Rock</a></div>
+	<div class="tag" id="link3"><a href="FzRH3iTQPrk.html">Sneezing Panda</a></div>
+	<div class="tag" id="link4"><a href="WqSTXuJeTks.html">Leave Britney Alone</a></div>
+	<div class="tag" id="link5"><a href="wCF3ywukQYA.html">Shoes</a></div>
+
+	<div class="tag" id="thumb1"><a href="dMH0bHeiRNg.html"><div class="thumblarge"></div></a></div>
+	<div class="tag" id="thumb2"><a href="TF6cnLnEARo.html"><div class="thumblarge"></div></a></div>
+	<div class="tag" id="thumb3"><a href="FzRH3iTQPrk.html"><div class="thumblarge"></div></a></div>
+	<div class="tag" id="thumb4"><a href="WqSTXuJeTks.html"><div class="thumblarge"></div></a></div>
+	<div class="tag" id="thumb5"><a href="wCF3ywukQYA.html"><div class="thumblarge"></div></a></div>
+
+	<div class="tag" id="dthumb1"><a href="KmtzQCSh6xk.html"><div class="thumbsmall"></div></a></div>
+	<div class="tag" id="dthumb2"><a href="hMnk7lh9M3o.html"><div class="thumbsmall"></div></a></div>
+	<div class="tag" id="dthumb3"><a href="yECd_Sz_zJ8.html"><div class="thumbsmall"></div></a></div>
+	<div class="tag" id="dthumb4"><a href="D2kJZOfq7zk.html"><div class="thumbsmall"></div></a></div>
+
+	<div class="tag" id="direct1"><a href="KmtzQCSh6xk.html">Numa Numa</a></div>
+	<div class="tag" id="direct2"><a href="hMnk7lh9M3o.html">Thriller</a></div>
+	<div class="tag" id="direct3"><a href="yECd_Sz_zJ8.html">The Landlord</a></div>
+	<div class="tag" id="direct4"><a href="D2kJZOfq7zk.html">Urban Ninja</a></div>
+
+	<div class="tag" id="username">RickAstleyVEVO</div>
+	<div class="tag" id="time1">00:00/</div>
+	<div class="tag" id="time2">03:33</div>
+
+	<div class="tag" id="commentname1">stareanddream</div>
+	<div class="tag" id="commentname2">ninten-freak</div>
+	<div class="tag" id="commentname3">digitaltornado</div>
+
+	<div class="tag" id="ad1"><a href="../newgrounds.html">newgrounds.com</a></div>
+	<div class="tag" id="ad2"><a href="../ytmnd.html">ytmnd.com</a></div>
+	<div class="tag" id="ad3"><a href="../steampowered.html">steam.com</a></div>
+
+	<img class="content" src="css/background.png"/>
+	<div class="tag" id="button"></div>
+</div>
+</body>

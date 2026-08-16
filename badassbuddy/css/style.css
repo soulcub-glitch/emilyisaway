@@ -1,0 +1,189 @@
+/* Default */
+body{
+	background-color:#286e98;
+}
+
+/*
+img.content{
+	width:100%;
+	margin-top: -10px;
+}
+*/
+
+/* Desktops (desktops, 992px and up) */
+div.container {
+    display: block;
+	margin: auto;
+	width: 992px;
+	margin-top: -10px;
+	position:relative;
+}
+
+div.tag {
+	font-family: 'Play', arial;
+	font-size:16px;
+
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+div.icon {
+	width:288px;
+	height:112px;
+
+	background-image: url("container.png");
+}
+
+div.icon img {
+	width:96px;
+	height:96px;
+
+    float: left;
+	position: relative;
+    left: 8px;
+    top: 8px;
+}
+
+div.icon div.title {
+	width:152px;
+	height:24px;
+
+	color:white;
+	overflow: hidden;
+
+    float: left;
+	position: relative;
+    left: 32px;
+    top: 7px;
+}
+
+div.icon div.sub {
+	width:168px;
+	height:24px;
+
+	color:black;
+
+    float: left;
+	position: relative;
+    left: 32px;
+    top: 16px;
+}
+
+div.icon div.link {
+	width:168px;
+	height:48px;
+
+    float: left;
+	position: relative;
+    left: 32px;
+    top: 16px;
+}
+
+#icon1 {
+	left:32px;
+	top:224px;
+}
+
+#icon2 {
+	left:32px;
+	top:368px;
+}
+
+#icon3 {
+	left:32px;
+	top:512px;
+}
+
+#icon4 {
+	left:32px;
+	top:656px;
+}
+
+#icon5 {
+	left:352px;
+	top:224px;
+}
+
+#icon6 {
+	left:352px;
+	top:368px;
+}
+
+#icon7 {
+	left:352px;
+	top:512px;
+}
+
+#icon8 {
+	left:352px;
+	top:656px;
+}
+
+#icon9 {
+	left:672px;
+	top:224px;
+}
+
+#icon10 {
+	left:672px;
+	top:368px;
+}
+
+#icon11 {
+	left:672px;
+	top:512px;
+}
+
+#icon12 {
+	left:672px;
+	top:656px;
+}
+
+#header {
+	width:288px;
+	height:48px;
+	font-size:36px;
+
+	left:352px;
+	top:160px;
+
+	color:#0f426d;
+	text-align: center;
+}
+
+#larrow{
+	width:108px;
+	height:72px;
+
+	background-image: url("larrow.png");
+
+	left:212px;
+	top:800px;
+}
+
+#larrow:hover{
+	opacity: 0.8;
+}
+
+#rarrow{
+	width:108px;
+	height:72px;
+
+	background-image: url("rarrow.png");
+
+	left:672px;
+	top:800px;
+}
+
+#rarrow:hover{
+	opacity: 0.8;
+}
+
+
+img.content{
+	pointer-events: none;
+	width: 992px;
+}
+
