@@ -1,0 +1,109 @@
+/* Default */
+body{
+	background-color:#2f3238;
+	background-image: url(banner.png);
+	background-repeat: repeat-x;
+}
+
+/*
+img.content{
+	width:100%;
+	margin-top: -10px;
+}
+*/
+
+/* Desktops (desktops, 992px and up) */
+div.container {
+    display: block;
+	margin: auto;
+	width: 992px;
+	margin-top: -10px;
+	position:relative;
+}
+
+div.tag {
+	font-family: 'Play', Arial;
+
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width:356px;
+	height:64px;
+}
+
+div.tag:hover{
+}
+
+div.tag img {
+	position: relative;
+	float:left;
+	top:0px;
+	left:0px;
+	height: 64px;
+	width: 64px;
+}
+
+div.tag div {
+	position: relative;
+	top:0px;
+	left:12px;
+	height: 64px;
+	width: 332px;
+	color:white;
+}
+
+div.tag div:hover {
+	text-decoration: underline;
+}
+
+div.tag span {
+	color:orange;
+}
+
+#capsule1 {
+	left:228px;
+	top:228px;
+}
+
+#capsule2 {
+	left:596px;
+	top:228px;
+}
+
+#capsule3 {
+	left:228px;
+	top:304px;
+}
+
+#capsule4 {
+	left:596px;
+	top:304px;
+}
+
+#capsule5 {
+	left:228px;
+	top:380px;
+}
+
+#capsule6 {
+	left:596px;
+	top:380px;
+}
+
+#capsule7 {
+	left:228px;
+	top:456px;
+}
+
+#capsule8 {
+	left:596px;
+	top:456px;
+}
+
+
+img.content{
+	width: 992px;
+	pointer-events: none;
+}
+
