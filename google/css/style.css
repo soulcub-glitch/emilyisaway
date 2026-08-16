@@ -1,0 +1,130 @@
+/* Default */
+body{
+	background-color:white;
+}
+
+/*
+img.content{
+	width:100%;
+	margin-top: -10px;
+}
+*/
+
+/* Desktops (desktops, 992px and up) */
+div.container {
+    display: block;
+	margin: auto;
+	width: 992px;
+	margin-top: -10px;
+	position:relative;
+}
+
+div.tag {
+	font-family: 'Play';
+	font-size:20px;
+
+    float: left;
+    position: absolute;
+    left: 188px;
+    top: 68px;
+    width:360px;
+	height:32px;
+}
+
+div.result {
+	font-family: 'Play';
+	font-size:16px;
+
+	float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width:240px;
+	height:240px;
+}
+
+div.resulttop{
+	width:240px;
+	height:188px;
+}
+
+img.result {
+	display:block;
+	max-width:240px;
+	max-height:188px;
+	width: auto;
+	height: auto;
+	margin:auto;
+}
+
+div.resultbottom {
+	width:232px;
+	height:52px;
+	padding: 0px 4px;
+}
+
+div.desc {
+	height:18px;
+}
+
+div.deta {
+	height:18px;
+	color:#BDBABB;
+}
+
+div.link {
+	height:18px;
+	color:#2FB752;
+}
+
+#result1 {
+	left:188px;
+	top:164px;
+}
+
+#result2 {
+	left:452px;
+	top:164px;
+}
+
+#result3 {
+	left:716px;
+	top:164px;
+}
+
+#result4 {
+	left:188px;
+	top:428px;
+}
+
+#result5 {
+	left:452px;
+	top:428px;
+}
+
+#result6 {
+	left:716px;
+	top:428px;
+}
+
+#result7 {
+	left:188px;
+	top:692px;
+}
+
+#result8 {
+	left:452px;
+	top:692px;
+}
+
+#result9 {
+	left:716px;
+	top:692px;
+}
+
+
+
+img.content{
+	width: 992px;
+}
+

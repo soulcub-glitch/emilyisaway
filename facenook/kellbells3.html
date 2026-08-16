@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<title>Facenook | Профиль келли</title>
+
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="shortcut icon" type="image/x-icon" href="css/favicon.ico"/> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+<script type="text/javascript"> 
+	function setStatus() {
+		var d = new Date();
+		var h = d.getHours();
+
+		var s = "";
+		if(h < 1 || h > 20) {
+			s = "Келли не спит.";
+		} else if(h < 8) {
+			s = "Келли спит zzzzz.";
+		} else if(h < 15) {
+			s = "Келли в школе.";
+		} else {
+			s = "Келли тусит."
+		}
+
+		document.getElementById("status_one").innerHTML = s;
+	}
+</script>
+
+</head>
+<body onload="setStatus()">
+<div class="container">
+	<div class="tag" id="poke"><a href="kellbells3.html#poke" onClick="alert('Вы подмигнули Келли!')">Подмигнуть</a></div>
+
+	<div class="tag" id="status_one"></div>
+
+	<div class="tag" id="mutual1"><a href="matatat7.html">Мэт</a></div>
+	<div class="tag" id="mutual2"><a href="emerz35.1.html">Эмили</a></div>
+
+	<div class="tag" id="posted1">Видео: <a href ="../youtoob/xftx7GnVJcU.html">Шаг Вперед<br>(2006) Трейлер</a></div>
+	<div class="tag" id="posted2">Ссылка: <a href ="../bradford.html">Мистер Бредфорд<br>Учитель истории</a></div>
+
+	<img class="content" src="kellbells3/background.png"/>
+</div>
+</body>

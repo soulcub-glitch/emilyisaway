@@ -1,0 +1,144 @@
+/* Default */
+body{
+	background-color:white;
+}
+
+/*
+img.content{
+	width:100%;
+	margin-top: -10px;
+}
+*/
+
+/* Desktops (desktops, 992px and up) */
+div.container {
+    display: block;
+	margin: auto;
+	width: 992px;
+	margin-top: -10px;
+	position:relative;
+}
+
+div.tag {
+	font-family: 'Play', arial;
+	font-size:16px;
+
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width:200px;
+	height:20px;
+}
+
+div.footer {
+	display: block;
+	margin: -16px;
+	width: 992px;
+	height:48px;
+	background-color:white;
+}
+
+#poke {
+	left:198px;
+	top:452px;
+}
+
+#add {
+	left:198px;
+	top:424px;
+}
+
+#status {
+	left:202px;
+	top:522px;
+	width:244px;
+}
+
+#status_one {
+	left:202px;
+	top:530px;
+	width:244px;
+}
+
+#mutual1 {
+	left:248px;
+	top:608px;
+}
+
+#mutual2 {
+	left:376px;
+	top:608px;
+}
+
+#posted1 {
+	left:232px;
+	top:720px;
+}
+
+#posted2 {
+	left:232px;
+	top:788px;
+}
+
+#tour1 {
+	left:256px;
+	top:298px;
+}
+
+#tour2 {
+	left:384px;
+	top:298px;
+}
+
+#tour3 {
+	left:512px;
+	top:298px;
+}
+
+#tour4 {
+	left:640px;
+	top:298px;
+}
+
+#tour5 {
+	left:768px;
+	top:298px;
+}
+
+#tour6 {
+	left:896px;
+	top:298px;
+}
+
+#notetitle {
+	font-size:24px;
+	left:204px;
+	top:100px;
+	width:700px;
+}
+
+#notedate {
+	color:#A7A7B0;
+	width:700px;
+	left:204px;
+	top:128px;
+}
+
+#notecontent {
+	width:752px;
+	height: auto;
+
+	left:196px;
+	top:152px;
+
+	padding: 8px;
+	background-color: #F3F3F3;
+
+}
+
+img.content{
+	width: 992px;
+	pointer-events: none;
+}
+

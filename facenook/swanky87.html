@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<title>Facenook | Профиль Стивена</title>
+
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="shortcut icon" type="image/x-icon" href="css/favicon.ico"/> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+<script type="text/javascript"> 
+	function setStatus() {
+		var d = new Date();
+		var h = d.getHours();
+
+		var s = "";
+		if(h < 1 || h > 20) {
+			s = "Стивен веселится.";
+		} else if(h < 8) {
+			s = "Стивен спит.";
+		} else if(h < 15) {
+			s = "Стивен прогуливает уроки.";
+		} else {
+			s = "Стивен ушел."
+		}
+
+		document.getElementById("status_one").innerHTML = s;
+	}
+</script>
+
+</head>
+<body onload="setStatus()">
+<div class="container">
+	<div class="tag" id="poke"><a href="swanky87.html#poke" onClick="alert('Вы подмигнули Стивену!')">Подмигнуть</a></div>
+
+	<div class="tag" id="status_one"></div>
+
+	<div class="tag" id="mutual1"><a href="punk4eva.html">Эвелин</a></div>
+
+	<div class="tag" id="posted1">Ссылка: <a href ="../ytmnd.html">YTMND Главная - You're The Man Now Dog</a></div>
+	<div class="tag" id="posted2">Видео: <a href ="../youtoob/ZVinwOpllQk.html">Disturbed -<br>Ten Thousand Fist</a></div>
+
+	<img class="content" src="swanky87/background.png"/>
+</div>
+</body>

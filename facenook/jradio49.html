@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<title>Facenook | Профиль Джеффа</title>
+
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="shortcut icon" type="image/x-icon" href="css/favicon.ico"/> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+<script type="text/javascript"> 
+	function setStatus() {
+		var d = new Date();
+		var h = d.getHours();
+
+		var s = "";
+		if(h > 18) {
+			s = "Джефф веселится.";
+		} else if(h < 8) {
+			s = "Джефф отдыхает.";
+		} else if(h < 14) {
+			s = "Джеффу скучно.";
+		} else {
+			s = "Джефф просто зажигает."
+		}
+
+		document.getElementById("status_one").innerHTML = s;
+	}
+</script>
+
+</head>
+<body onload="setStatus()">
+<div class="container">
+	<div class="tag" id="poke"><a href="jradio49.html#poke" onClick="alert('Вы подмигнули Джеффу!')">Подмигнуть</a></div>
+
+	<div class="tag" id="status_one"></div>
+
+	<div class="tag" id="mutual1"><a href="emerz35.1.html">Эмили</a></div>
+	<div class="tag" id="mutual2"><a href="punk4eva.html">Эвелин</a></div>
+
+	<div class="tag" id="posted1">Видео: <a href ="../youtoob/Q3Yc3HhSl1Q.html">Muse - Knights Of Cydonia (Video)</a></div>
+	<div class="tag" id="posted2">Ссылка: <a href ="../steampowered.html">Добро пожаловать в Steam</a></div>
+
+	<img class="content" src="jradio49/background.png"/>
+</div>
+</body>
